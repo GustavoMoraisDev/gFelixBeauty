@@ -13,7 +13,7 @@ export function Nav() {
             <a href="#depoimentos" className="hover:text-foreground transition">Depoimentos</a>
           </nav>
           <a
-            href="https://wa.me/5500000000000"
+            href="https://wa.me/5511986590169?text=Olá%20gostaria%20de%20agendar%20com%20a%20profissional%20Giovanna%20Félix!"
             target="_blank"
             rel="noreferrer"
             className="hidden md:inline-flex items-center gap-2 rounded-full bg-foreground text-background px-5 py-2 text-sm hover:opacity-90 transition"

@@ -9,16 +9,16 @@ export function Footer() {
             Giovanna <span className="text-gradient-gold">Félix</span>
           </a>
           <p className="text-sm text-muted-foreground max-w-sm">
-            Studio premium de design de sobrancelhas e realce do olhar.
+            Profissional de design de sobrancelhas e realce do olhar.
           </p>
         </div>
 
         <div className="space-y-3 text-sm">
           <h4 className="font-display text-lg">Contato</h4>
           <a href="https://instagram.com" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition">
-            <Instagram className="h-4 w-4" /> @giovannafelix.brows
+            <Instagram className="h-4 w-4" /> @gfelix_beauty
           </a>
-          <a href="https://wa.me/5500000000000" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition">
+          <a href="https://wa.me/5511986590169?text=Olá%20gostaria%20de%20agendar%20com%20a%20profissional%20Giovanna%20Félix!" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition">
             <MessageCircle className="h-4 w-4" /> WhatsApp
           </a>
         </div>
@@ -26,17 +26,17 @@ export function Footer() {
         <div className="space-y-3 text-sm">
           <h4 className="font-display text-lg">Studio</h4>
           <p className="flex items-start gap-2 text-muted-foreground">
-            <MapPin className="h-4 w-4 mt-0.5 shrink-0" /> Rua das Flores, 123 — Sala 04
+            <MapPin className="h-4 w-4 mt-0.5 shrink-0" /> Estr. das Lágrimas, 1886 - Ipiranga, São Paulo - SP, 04235-320
           </p>
           <p className="flex items-start gap-2 text-muted-foreground">
-            <Clock className="h-4 w-4 mt-0.5 shrink-0" /> Seg–Sáb · 9h às 19h
+            <Clock className="h-4 w-4 mt-0.5 shrink-0" /> Seg–Sáb · 10h às 19h30
           </p>
         </div>
       </div>
 
       <div className="mx-auto max-w-7xl px-6 mt-12 pt-6 border-t flex flex-wrap items-center justify-between gap-4 text-xs text-muted-foreground">
         <p>© {new Date().getFullYear()} Giovanna Félix. Todos os direitos reservados.</p>
-        <p>Feito com delicadeza ✦</p>
+        <p>Desenvolvimento | Gustavo Morais ✦</p>
       </div>
     </footer>
   );

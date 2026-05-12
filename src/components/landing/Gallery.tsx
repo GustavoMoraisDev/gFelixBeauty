@@ -32,7 +32,7 @@ export function Gallery() {
             </h2>
           </div>
           <a href="https://instagram.com" target="_blank" rel="noreferrer" className="text-sm underline-offset-4 hover:underline text-muted-foreground">
-            @giovannafelix.brows ↗
+            @gfelix_beauty ↗
           </a>
         </motion.div>
 

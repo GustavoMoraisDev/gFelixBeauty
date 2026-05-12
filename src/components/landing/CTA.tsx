@@ -23,7 +23,7 @@ export function CTA() {
           Agende seu horário e descubra a melhor versão da sua beleza.
         </p>
         <a
-          href="https://wa.me/5500000000000"
+          href="https://wa.me/5511986590169?text=Olá%20gostaria%20de%20agendar%20com%20a%20profissional%20Giovanna%20Félix!"
           target="_blank"
           rel="noreferrer"
           className="inline-flex items-center gap-3 rounded-full bg-foreground text-background px-10 py-5 text-lg shadow-glow hover:scale-[1.03] transition-all"

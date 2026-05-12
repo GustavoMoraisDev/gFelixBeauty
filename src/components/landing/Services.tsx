@@ -8,7 +8,6 @@ const services = [
   { icon: Droplet, name: "Micropigmentação", desc: "Pigmentação artística de longa duração." },
   { icon: Pen, name: "Nanoblading", desc: "Fio a fio ultra realista e delicado." },
   { icon: Eye, name: "Lash Lift", desc: "Curvatura natural que realça o olhar." },
-  { icon: Feather, name: "Extensão de cílios", desc: "Volume e leveza sob medida." },
 ];
 
 export function Services() {

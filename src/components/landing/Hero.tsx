@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { MessageCircle, ChevronDown, Sparkles } from "lucide-react";
-import hero from "@/assets/hero.jpg";
+import hero from "@/assets/herogiovanna.png";
 
 export function Hero() {
   return (
@@ -17,7 +17,7 @@ export function Hero() {
         >
           <div className="inline-flex items-center gap-2 glass rounded-full px-4 py-1.5 text-xs tracking-widest uppercase text-muted-foreground">
             <Sparkles className="h-3.5 w-3.5 text-gold" />
-            Studio Premium de Beleza
+            Profissional em Beleza
           </div>
 
           <h1 className="font-display text-6xl md:text-7xl lg:text-8xl leading-[0.95]">
@@ -36,7 +36,7 @@ export function Hero() {
 
           <div className="flex flex-wrap items-center gap-4 pt-2">
             <a
-              href="https://wa.me/5500000000000"
+              href="https://wa.me/5511986590169?text=Olá%20gostaria%20de%20agendar%20com%20a%20profissional%20Giovanna%20Félix!"
               target="_blank"
               rel="noreferrer"
               className="group inline-flex items-center gap-3 rounded-full bg-foreground text-background px-7 py-4 shadow-glow hover:scale-[1.02] transition-all"
@@ -51,7 +51,7 @@ export function Hero() {
 
           <div className="flex items-center gap-6 pt-6 text-xs text-muted-foreground">
             <div>
-              <div className="font-display text-2xl text-foreground">+8 anos</div>
+              <div className="font-display text-2xl text-foreground">+5 anos</div>
               de experiência
             </div>
             <div className="h-10 w-px bg-border" />
@@ -74,7 +74,7 @@ export function Hero() {
           className="relative"
         >
           <div className="relative aspect-[4/5] overflow-hidden rounded-[2.5rem] shadow-glow">
-            <img src={hero} alt="Studio de beleza Giovanna Félix" className="h-full w-full object-cover" width={1600} height={1200} />
+            <img src={hero} alt="Profissional Giovanna Félix" className="h-full w-full object-cover" width={1600} height={1200} />
             <div className="absolute inset-0 bg-gradient-to-t from-foreground/30 via-transparent to-transparent" />
             <div className="shimmer absolute inset-0 opacity-40 mix-blend-overlay" />
           </div>
@@ -90,7 +90,7 @@ export function Hero() {
                 <div key={i} className="h-7 w-7 rounded-full bg-luxe border-2 border-background" />
               ))}
             </div>
-            <p className="text-xs text-muted-foreground">Mais de <span className="text-foreground font-medium">2.000 mulheres</span> realçaram sua beleza</p>
+            <p className="text-xs text-muted-foreground">Mais de <span className="text-foreground font-medium">5.000</span> sobrancelhas transformadas</p>
           </motion.div>
 
           <motion.div
@@ -100,7 +100,7 @@ export function Hero() {
             className="absolute -top-4 -right-4 glass rounded-2xl px-4 py-3 flex items-center gap-2 shadow-soft"
           >
             <div className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
-            <span className="text-xs">Agendando hoje</span>
+            <span className="text-xs">Agendamento online</span>
           </motion.div>
         </motion.div>
       </div>
@@ -109,7 +109,7 @@ export function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.6 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-muted-foreground"
+        className="absolute bottom-0 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-muted-foreground"
       >
         <span className="text-[10px] tracking-[0.3em] uppercase">Role para descobrir</span>
         <ChevronDown className="h-4 w-4 animate-bounce" />
