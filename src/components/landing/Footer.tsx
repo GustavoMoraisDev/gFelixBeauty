@@ -29,7 +29,7 @@ export function Footer() {
             <MapPin className="h-4 w-4 mt-0.5 shrink-0" /> Estr. das Lágrimas, 1886 - Ipiranga, São Paulo - SP, 04235-320
           </p>
           <p className="flex items-start gap-2 text-muted-foreground">
-            <Clock className="h-4 w-4 mt-0.5 shrink-0" /> Seg–Sáb · 10h às 19h30
+            <Clock className="h-4 w-4 mt-0.5 shrink-0" /> Ter–Sáb · 10h às 19h30
           </p>
         </div>
       </div>
