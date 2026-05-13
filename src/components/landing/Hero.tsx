@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { MessageCircle, ChevronDown, Sparkles } from "lucide-react";
-import hero from "@/assets/herogiovanna.png";
+import hero from "@/assets/heroHome.jpg";
 
 export function Hero() {
   return (
