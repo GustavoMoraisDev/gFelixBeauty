@@ -24,7 +24,7 @@ export function Services() {
           <h2 className="font-display text-5xl md:text-6xl">
             Realce sua <span className="italic text-gradient-gold">essência</span>
           </h2>
-          <p className="text-muted-foreground">Tratamentos premium para sobrancelhas e cílios pensados para destacar a sua beleza única.</p>
+          <p className="text-muted-foreground">Técnicas especializadas para valorizar cada sobrancelha de forma única</p>
         </motion.div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

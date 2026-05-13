@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 import { Heart, Sparkles, Leaf, Coffee } from "lucide-react";
-import about from "@/assets/about.jpg";
+import about from "@/assets/sobregiovanna.png";
 
 const cards = [
-  { icon: Heart, title: "Atendimento personalizado", text: "Cada cliente é única — cada design também." },
-  { icon: Sparkles, title: "Técnicas avançadas", text: "Sempre atualizada com as melhores tendências." },
-  { icon: Leaf, title: "Resultado natural", text: "Realce delicado que valoriza seus traços." },
-  { icon: Coffee, title: "Ambiente confortável", text: "Um espaço acolhedor pensado para você." },
+  { icon: Heart, title: "Experiência exclusiva", text: "Um momento especial para você, conforto e atendimento que você merece." },
+  { icon: Sparkles, title: "Técnicas avançadas", text: "Resultados naturais e leves que valorizam sua essência." },
+  { icon: Leaf, title: "+5 anos de experiência", text: "Anos dedicados ao aperfeiçoamento de técnicas e à transformação de olhares." },
+  { icon: Coffee, title: "+2 mil clientes transformadas", text: "Uma trajetória construída com confiança, dedicação e resultados que encantam." },
 ];
 
 export function About() {
@@ -41,7 +41,7 @@ export function About() {
             Cuidado em cada <span className="italic text-gradient-gold">detalhe</span>.
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Há mais de oito anos transformando olhares com técnicas modernas, sensibilidade artística e um atendimento profundamente humanizado. No meu studio, beleza natural é prioridade — porque a sua essência merece ser realçada, nunca disfarçada.
+            Há mais de 5 anos transformando olhares com técnicas especializadas, precisão em cada detalhe e excelência em cada atendimento. Minha prioridade é renovar sua autoestima, valorizar sua beleza natural e proporcionar o momento que você merece.
           </p>
 
           <div className="grid sm:grid-cols-2 gap-4 pt-4">
