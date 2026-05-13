@@ -5,9 +5,9 @@ const services = [
   { icon: Brush, name: "Design de sobrancelhas", desc: "Modelagem precisa que valoriza seu rosto." },
   { icon: Wand2, name: "Brow Lamination", desc: "Fios alinhados e efeito natural duradouro." },
   { icon: Leaf, name: "Henna", desc: "Coloração natural com aspecto preenchido." },
-  { icon: Droplet, name: "Micropigmentação", desc: "Pigmentação artística de longa duração." },
-  { icon: Pen, name: "Nanoblading", desc: "Fio a fio ultra realista e delicado." },
-  { icon: Eye, name: "Lash Lift", desc: "Curvatura natural que realça o olhar." },
+  { icon: Droplet, name: "Depilação Egípcia", desc: "Técnica suave e precisa para remoção dos pelos com linha." },
+  { icon: Pen, name: "Body Piercing", desc: "Aplicação segura, delicada e com acabamento profissional." },
+  { icon: Eye, name: "Outros Serviços", desc: "Entre em contato e consulte o serviço que deseja." },
 ];
 
 export function Services() {

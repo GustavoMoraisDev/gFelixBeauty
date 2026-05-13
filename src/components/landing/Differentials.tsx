@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
 const items = [
-  { n: "01", t: "Atendimento humanizado", d: "Tempo dedicado para entender sua expectativa." },
-  { n: "02", t: "Produtos premium", d: "Marcas certificadas e de alta performance." },
-  { n: "03", t: "Técnicas atualizadas", d: "Formação contínua e tendências internacionais." },
-  { n: "04", t: "Ambiente aconchegante", d: "Um refúgio para você se cuidar com calma." },
-  { n: "05", t: "Resultados naturais", d: "Realce delicado que respeita sua expressão." },
-  { n: "06", t: "Beleza única", d: "Cada design é desenvolvido sob medida." },
+  { n: "01", t: "Autoestima renovada", d: "Se sentir bonita muda a forma como você se vê todos os dias." },
+  { n: "02", t: "Momento só seu", d: "Uma pausa na rotina para cuidar de você com carinho." },
+  { n: "03", t: "Beleza natural", d: "Realce seus traços sem perder sua essência." },
+  { n: "04", t: "Mais confiança", d: "Pequenos cuidados que fazem uma grande diferença no seu olhar." },
+  { n: "05", t: "Cuidado feminino", d: "Você merece se sentir bem, leve e ainda mais linda." },
+  { n: "06", t: "Detalhes que encantam", d: "Sobrancelhas bem feitas valorizam toda sua expressão." },
 ];
 
 export function Differentials() {
@@ -19,9 +19,9 @@ export function Differentials() {
           viewport={{ once: true }}
           className="max-w-2xl mb-16 space-y-4"
         >
-          <span className="text-xs tracking-[0.3em] uppercase text-gold">Diferenciais</span>
+          <span className="text-xs tracking-[0.3em] uppercase text-gold">Momento Mulher</span>
           <h2 className="font-display text-5xl md:text-6xl">
-            Por que escolher o <span className="italic text-gradient-gold">studio</span>
+            Por que você deve se <span className="italic text-gradient-gold">Cuidar</span>
           </h2>
         </motion.div>
 

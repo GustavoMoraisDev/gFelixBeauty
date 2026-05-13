@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { Star, Quote } from "lucide-react";
 
 const items = [
-  { name: "Beatriz M.", text: "Giovanna transformou meu olhar! Saí me sentindo a versão mais bonita de mim. Atendimento impecável." },
-  { name: "Camila R.", text: "Profissional sensacional, ambiente lindo e resultado natural perfeito. Indico de olhos fechados." },
-  { name: "Larissa P.", text: "Cada detalhe foi pensado com carinho. Minhas sobrancelhas nunca estiveram tão bem desenhadas." },
+  { name: "Ana Júlia", text: "Fi vc arrasa demais, minhas sobrancelhas ficaram perfeitas e super naturais." },
+  { name: "Mariana Souza", text: "Melhor designer que já fui! Ambiente gostoso e resultado impecável." },
+  { name: "Fernanda Lima", text: "Fiz brow lamination e fiquei apaixonada no resultado, valorizou muito meu olhar." },
 ];
 
 export function Testimonials() {
@@ -38,7 +38,7 @@ export function Testimonials() {
               <div className="mt-6 flex items-center justify-between">
                 <div>
                   <p className="font-medium">{t.name}</p>
-                  <p className="text-xs text-muted-foreground">Cliente verificada</p>
+                  <p className="text-xs text-muted-foreground">Cliente</p>
                 </div>
                 <div className="flex gap-0.5">
                   {Array.from({ length: 5 }).map((_, j) => (

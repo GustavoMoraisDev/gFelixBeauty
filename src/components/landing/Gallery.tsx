@@ -1,18 +1,18 @@
 import { motion } from "framer-motion";
-import g1 from "@/assets/g1.jpg";
-import g2 from "@/assets/g2.jpg";
-import g3 from "@/assets/g3.jpg";
-import g4 from "@/assets/g4.jpg";
-import g5 from "@/assets/g5.jpg";
-import g6 from "@/assets/g6.jpg";
+import g1 from "@/assets/brow2.jpeg";
+import g2 from "@/assets/designer.jpeg";
+import g3 from "@/assets/linha.jpeg";
+import g4 from "@/assets/henna.jpeg";
+import g5 from "@/assets/piercing.jpeg";
+import g6 from "@/assets/brow1.jpeg";
 
 const images = [
-  { src: g1, label: "Design natural", span: "row-span-2" },
-  { src: g2, label: "Extensão de cílios", span: "" },
-  { src: g3, label: "Brow lamination", span: "" },
-  { src: g4, label: "Henna premium", span: "row-span-2" },
-  { src: g5, label: "Lash lift", span: "" },
-  { src: g6, label: "Studio", span: "" },
+  { src: g1, label: "Brow Lamination", span: "row-span-2" }, 
+  { src: g2, label: "Design de sobrancelhas", span: "" },
+  { src: g3, label: "Depilação Egípcia", span: "" }, 
+  { src: g5, label: "Piercing", span: "row-span-2" },
+  { src: g4, label: "Henna", span: "" },
+  { src: g6, label: "Brow Lamination", span: "" },
 ];
 
 export function Gallery() {
