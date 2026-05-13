@@ -20,9 +20,9 @@ export function Hero() {
             Profissional em Beleza
           </div>
 
-          <h1 className="font-display text-6xl md:text-7xl lg:text-8xl leading-[0.95]">
-            Giovanna
-            <br />
+          <h1 className="font-display text-4xl md:text-7xl lg:text-8xl leading-[0.95]">
+            Giovanna{" "}
+            <br className="hidden md:block" />
             <span className="text-gradient-gold italic">Félix</span>
           </h1>
 
