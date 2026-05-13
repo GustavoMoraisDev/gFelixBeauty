@@ -24,7 +24,7 @@ export function Footer() {
         </div>
 
         <div className="space-y-3 text-sm">
-          <h4 className="font-display text-lg">Studio</h4>
+          <h4 className="font-display text-lg">Studio Serrano</h4>
           <p className="flex items-start gap-2 text-muted-foreground">
             <MapPin className="h-4 w-4 mt-0.5 shrink-0" /> Estr. das Lágrimas, 1886 - Ipiranga, São Paulo - SP, 04235-320
           </p>
