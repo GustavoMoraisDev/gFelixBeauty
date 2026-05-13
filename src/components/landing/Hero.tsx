@@ -23,7 +23,7 @@ export function Hero() {
           <h1 className="font-display text-4xl md:text-7xl lg:text-8xl leading-[0.95]">
             Giovanna{" "}
             <br className="hidden md:block" />
-            <span className="text-gradient-gold italic">Félix</span>
+            <span className="text-gradient-gold italic">Felix</span>
           </h1>
 
           <p className="text-lg text-muted-foreground max-w-md">
@@ -36,7 +36,7 @@ export function Hero() {
 
           <div className="flex flex-wrap items-center gap-4 pt-2">
             <a
-              href="https://wa.me/5511986590169?text=Olá%20gostaria%20de%20agendar%20com%20a%20profissional%20Giovanna%20Félix!"
+              href="https://wa.me/5511986590169?text=Olá%20gostaria%20de%20agendar%20com%20a%20profissional%20Giovanna%20Felix!"
               target="_blank"
               rel="noreferrer"
               className="group inline-flex items-center gap-3 rounded-full bg-foreground text-background px-7 py-4 shadow-glow hover:scale-[1.02] transition-all"
@@ -74,9 +74,9 @@ export function Hero() {
           className="relative"
         >
           <div className="relative aspect-[4/5] overflow-hidden rounded-[2.5rem] shadow-glow">
-            <img src={hero} alt="Profissional Giovanna Félix" className="h-full w-full object-cover" width={1600} height={1200} />
+            <img src={hero} alt="Profissional Giovanna Felix" className="h-full w-full object-cover" width={1600} height={1200} />
             <div className="absolute inset-0 bg-gradient-to-t from-foreground/30 via-transparent to-transparent" />
-            <div className="shimmer absolute inset-0 opacity-40 mix-blend-overlay" />
+            {/* <div className="shimmer absolute inset-0 opacity-40 mix-blend-overlay" /> */}
           </div>
 
           <motion.div
