@@ -15,19 +15,19 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
   meta: [
-    { title: "Giovanna Félix · Especialista em Sobrancelhas" },
+    { title: "Giovanna Felix · Especialista em Sobrancelhas" },
     {
       name: "description",
       content:
-        "Studio premium de design de sobrancelhas e realce do olhar com Giovanna Félix.",
+        "Studio premium de design de sobrancelhas e realce do olhar com Giovanna Felix.",
     },
     {
       property: "og:title",
-      content: "Giovanna Félix · Realçando sua beleza através do olhar",
+      content: "Giovanna Felix · Realçando sua beleza através do olhar",
     },
     {
       property: "og:description",
-      content: "Agende seu horário no studio premium de Giovanna Félix.",
+      content: "Agende seu horário no studio premium de Giovanna Felix.",
     },
   ],
 

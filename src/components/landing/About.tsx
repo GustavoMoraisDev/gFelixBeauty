@@ -21,7 +21,7 @@ export function About() {
           className="relative"
         >
           <div className="aspect-[4/5] overflow-hidden rounded-[2rem] shadow-soft">
-            <img src={about} alt="Giovanna Félix" loading="lazy" className="h-full w-full object-cover" />
+            <img src={about} alt="Giovanna Felix" loading="lazy" className="h-full w-full object-cover" />
           </div>
           <div className="absolute -bottom-8 -right-8 hidden md:block glass rounded-3xl p-6 max-w-[260px] shadow-soft">
             <p className="font-display italic text-lg leading-tight">"Quando se trabalha com amor, os resultados são consequência."</p>
